@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relazione finale</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#copertina">copertina</a></li>
+            <li><a href="#1">Le funzioni principali</a></li>
+            <li><a href="#2">Classificazione energetica degli alimentatori</a></li>
+            <li><a href="#3">Perché si classificano gli alimentatori?</a></li>
+            <li><a href="#4">Formati degli alimentatori</a></li>
+            <li><a href="#5">Modularità</a></li>
+            <li><a href="#6">Tecnologia di switching</a></li>
+            <li><a href="#7">Come nascono gli alimentatori?</a></li>
+            <li><a href="#8">Componenti di un alimentatore</a></li>
+            <li><a href="#9">Alimentatori lineari</a></li>
+            <li><a href="#10">Alimentatori non ridondanti</a></li>
+            <li><a href="#12">L’impatto degli alimentatori sull’ambiente</a></li>
+            <li><a href="#13">L’innovazione degli alimentatori</a></li>
+        </ul>
+    </nav>
+    <div class="contenitore">
+        <section id="copertina">
+            <h1>Alimentatori</h1>
+            <img src="alimentatore1.png" alt="">
+        </section>
+        <section id="1">
+            <h2>Le funzioni principali</h2>
+            <p>Gli alimentatori, anche chiamati PSU (Power Supply Unit), sono strumenti che convertono la corrente alternata (AC) in corrente continua (DC) per alimentare dispositivi elettronici. Gli alimentatori hanno anche delle altre funzioni, alcune di queste sono:
+                <ul><li>Fornire corrente stabile al dispositivo che vi e collegato a esso</li>
+                    <li>Fornire sicurezza: gli alimentatori hanno un sistema di sicurezza per prevenire sovraccarichi, corto circuiti o sovratensioni</li>
+                    <li>Fornire efficienza energetica per evitare sprechi di corrente </li>
+                    <li>Gestire la temperatura: Gli alimentatori poiché lavorano con la corrente elettrica generano calore, e per questo gli alimentatori moderni hanno un sistema di gestione della temperatura</li>
+                    <li>Adattare la corrente che ricevono: I PSU sono in grado di riadattare la corrente che ricevono in ingresso in altre tensioni.</li>
+                </ul>
+            </p>
+                </section>
+        <section id="2">
+            <h2>Classificazione energetica degli alimentatori</h2>
+            <p>Gli alimentatori PSU sono classificati in base alla loro efficienza energetica, che viene misurata in efficienza 80 PLUS (sistema di classificazione Americano Megatrends, istituito nel 2004). Alcune di queste classificazioni sono:
+                <ul><li>Bronze: efficienza minima del 80%</li>
+                    <li>Silver: efficienza minima del 85%</li>
+                    <li>Gold: efficienza minima del 90%</li>
+                    <li>Platinum: efficienza minima del 92%</li>
+                    <li>Titanium: efficienza minima del 94%</li>
+                </ul>
+            </p>
+        </section>
+        <section id="3">
+            <h2>Perché si classificano gli alimentatori?</h2>
+            <p><ol>
+                <li>Ridurre il consumo energetico</li>
+                <p>Un alimentatore che converte la maggior parte della corrente che riceve in entrata, produce meno calore, il ciò si traduce in minore sprechi di energia.</p>
+                <li>Migliore stabilità</li>
+                <p>Un alimentatore che produce meno calore, riduce anche lo stress sui componenti e sul sistema di raffreddamento e di conseguenza l’alimentatore funziona in maniera più stabile e silenziosa.</p>
+            </ol></p>
+        </section>
+        <section id="4">
+            <h2>Formati degli alimentatori</h2>
+            <p>Gli alimentatori PSU sono disponibili in diversi formati, per permettere la compatibilità con i vari case, sistemii più comuni dei quali sono:
+                <ul>
+                    <li>ATX</li>
+                    <p>il formato più diffuso, utilizzato dalla maggior parte dei computer desktop e può essere installato nella maggior parte dei case.</p>
+                    <li>SFX</li>
+                    <p>un formato più compatto, utilizzato nei computer con schede madri mini-ITX</p>
+                    <li>TFX</li>
+                    <p>È una variante leggermente più lunga del formato SFX, utile per case mid-tower molto compatti.</p>
+                </ul>
+                <img src="Dimensioni alimentatori.PNG" alt="">
+            </p>
+        </section>
+        <section id="5">
+            <h2>Modularità</h2>
+            <p>La modularità in un alimentatore riguarda la possibilità di collegare cavi di alimentazione al PC. Esistono vari tipi di modularità in un alimentatore: modulari, non modulari e semi-modulari.
+                <ul>
+                    <li>Modulari</li>
+                    <p>Un alimentatore modulare è dotato di connettori per i cavi di alimentazione necessari all’utente, ciò è un vantaggio perché permette un maggiore ordine tra i cavi di alimentazione</p>
+                    <li>Non modulari</li>
+                    <p>Gli alimentatori non modulari, a differenza di quelli modulari non permettono all’utente di scegliere i cavi da utilizzare o meno, infatti tutti i cavi sono fissati nell’alimentatore non permettendone la rimozione dei cavi inutilizzati.</p>
+                    <li>Semi-modulari</li>
+                    <p>Questo tipo di alimentatori e una via di mezzo tra i due detti in precedenza, infatti i semi-modulari hanno dei cavi, ovvero quelli principali, invece per i cavi secondari ci sono gli appositi ingressi per collegare il cavo.</p>
+                </ul>
+                <img src="modularità.PNG" alt="">
+            </p>
+        </section>
+        <section id="6">
+            <h2>Tecnologia di switching</h2>
+            <p>Gli alimentatori moderni utilizzano la tecnologia switching per convertire la corrente alternata in corrente continua, questa tecnologia ha il compito di:
+                <ul>
+                    <li>Raddrizzatore: converte la corrente alternata in corrente continua</li>
+                    <li>Filtro: elimina le oscillazioni e irregolarità della corrente continua</li>
+                    <li>Oscillatore: genera una corrente alternata ad alta frequenza modulazione PWM</li>
+                    <li>Trasformatore: abbassa la tensione alternata ad alta frequenza</li>
+                    <li>Raddrizzatore e filtro: convertono nuovamente in corrente continua la tensione della corrente alternata</li>
+                </ul>
+                Questa tecnologia ad alta frequenza permette di ottenere alimentatori più leggeri, compatti ed efficienti rispetto ai vecchi alimentatori lineari, molto più ingombranti anche se stabile e semplice. Inoltre, grazie alla modulazione PWM, gli alimentatori switching dissipano pochissima energia sotto forma di calore
+            </p>
+        </section>
+        <section id="7">
+            <h2>Come nascono gli alimentatori?</h2>
+            <p>Gli alimentatori nascono con l'invenzione dei primi trasformatori e raddrizzatori, che permettevano di convertire la corrente alternata in corrente continua. Questi dispositivi erano ingombranti e poco efficienti. Negli ultimi decenni, con la diffusione di computer e apparecchiature elettroniche, gli alimentatori sono diventati ancora più importanti. Così si sono iniziati a produrre alimentatori meno ingombranti e più affidabili.</p>
+        </section>
+        <section id="8">
+            <h2>Componenti di un alimentatore</h2>
+            <p>Un alimentatore per convertire la corrente alternata in continua ha bisogno di alcuni componenti per funzionare come ad esempio, un trasformatore che ha il compito di convertire la corrente in ingresso (220V), in un voltaggio minore come 12 o 5V, o come i condensatori, che conservano per un breve periodo la corrente e servono a fornire stabilità alla corrente continua.</p>
+        </section>
+        <section id="9">
+            <h2>Alimentatori lineari</h2>
+            <p>Gli alimentatori lineari sono stati i primi dispositivi in grado di convertire la corrente alternata in corrente continua. Hanno la funzione di convertire la corrente alternata in continua, ma a differenza degli alimentatori switching fornisce una maggiore stabilità ed è molto più semplice da utilizzare, anche se molto ingombrante.</p>
+        </section>
+        <section id="10">
+            <h2>Alimentatori non ridondanti</h2>
+            <p>Gli alimentatori non ridondanti sono un tipo di alimentatore, principalmente usato per i server, per evitare che in caso di guasto dell’alimentatore principale o assenza di corrente, il server non si spenga. Ciò fornisce sicurezza sulla stabilità dei server.</p>
+            <img class="prima"src="alimentatore non ridondante.jpg" alt="">
+        </section>
+        <section id="11">
+            <h2>Gestione dei cablaggi degli alimentatori nei PC</h2>
+            <p>Quando si installa un alimentatore in un PC, è bene organizzare tutti i cavi che escono dall'alimentatore e li collegano alle varie parti del computer. Perciò buona norma utilizzare solo i cavi necessari al pc, in caso di alimentatore modulare, e sistemando all’interno del case i cavi in modo che non creino un corto o intralcino altri componenti. Questi consigli sono adatti per un pc con alimentatore modulare, in caso di alimentatore non modulare bisognerà sistemare tutti i cavi all’interno del case in maniera ottimale.</p>
+        </section>
+        <section id="12">
+            <h2>L’impatto degli alimentatori sull’ambiente</h2>
+            <p>Quando scegliamo alimentatori che consumano meno energia, aiutiamo a ridurre lo spreco e le emissioni nocive. Meno energia consumano gli alimentatori, meno inquinamento causano le centrali elettriche che la producono. Anche la produzione degli alimentatori stessi può causare inquinamento.</p>
+        </section>
+        <section id="13">
+            <h2>L’innovazione degli alimentatori</h2>
+            <p>Gli alimentatori hanno subito un'evoluzione significativa, passando da dispositivi grandi e inefficienti a soluzioni più piccole, efficienti e intelligenti. Come ad esempio la ricarica wireless, che sfrutta l'induzione elettromagnetica per trasmettere energia a dispositivi come smartphone e tablet, senza l'uso di cavi. Questo è solo un esempio di come il mondo dell’elettronica sta avanzando velocemente per fornire maggiore comodità e stabilità allo stesso tempo.</p>
+        </section>
+    </div>
+</body>
+</html>

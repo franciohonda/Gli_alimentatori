@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    margin-bottom: 180px;
+    background-color: #F2EED8;
+}
+#copertina{
+    background-color: #F24822;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+    height: 85dvh;
+    display: flex;
+    justify-content: center;
+}
+.prima{
+    height: 400px;
+    width: 400px;
+}
+img{
+    border-radius: 10px;
+}
+nav{
+    position: fixed;
+    top: 75%;
+    overflow: hidden;
+    left: 0px;
+    margin-right: 15px;
+    background-color: #1243A6;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+nav ul li{
+    padding: 15px;
+    border-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+}
+nav ul li:hover{
+    background-color: #1e3d7d;
+}
